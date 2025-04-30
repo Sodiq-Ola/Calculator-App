@@ -62,3 +62,18 @@ button:hover{
 button:active{
     background-color: hsl(0, 0%, 50%);
 }
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.button {
+  flex: 1 1 22%; /* flexible width */
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
