@@ -46,6 +46,15 @@ button{
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+  .calculator {
+    padding: 10px;
+  }
+  .button {
+    font-size: 1.2rem;
+  }
+}
+
 button:hover{
     background-color: hsl(0, 0%, 40%);
 }
